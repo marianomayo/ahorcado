@@ -1,0 +1,30 @@
+header, footer{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: 400px;
+    margin: 40px;
+}
+.ocultar{
+    display: none;
+}
+
+.perdiste{
+    background-color: red;
+}
+.ganaste{
+    background-color: yellow;
+}
+
+@media only screen and (min-width:600px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/ahorcado.js"></script>
+    <title>Ahorcado</title>
+</head>
+
+<body>
+  <header>
+      <h1>Juego de ahorcado</h1>
+  </header>
+    <section>
+        <div>
+            <div class="centrado">
+                <img id="imagen" src="img/imagen0.jpg" alt="img-ahorcado"/>
+            </div>
+            <div>
+                <h2 id="response"></h2>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h1 id="resultado"></h1>
+            </div>
+            <form action="">
+                <input id="letra" type="text" placeholder="Dame una letra" maxlength="1"> 
+                <input type="button" id="boton" value="comprobar">
+            </form>
+           
+            <h2>Intentos</h2>
+            <div>
+                <h3 id="intentos"></h3>
+            </div>
+            <h2>Historial</h2>
+            <div id="historial"></div>
+        </div>
+    </section>
+    <footer id="button"></footer>
+</body>
+
+</html>
