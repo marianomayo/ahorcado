@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function comprobarLetraUsuario () {
       
-      let letraUsuario = nodoLetra.value;
+      let letraUsuario = nodoLetra.value.toLowerCase();
       
       nodoLetra.value = '';
       
